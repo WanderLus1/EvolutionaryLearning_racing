@@ -1,0 +1,150 @@
+MAP 1
+error: +-0.8
+
+trackPoints[0]  = {100, 100};  // Top Start Line — Horizontal launch
+trackPoints[1]  = {350, 100};  // Top Straight — Flat entry to wave
+trackPoints[2]  = {500, 60};   // Top Resistor Crest — Smooth rise up
+trackPoints[3]  = {650, 100};  // Top Resistor Center — Zero-crossing
+trackPoints[4]  = {800, 140};  // Top Resistor Trough — Gentle dip down
+trackPoints[5]  = {950, 100};  // Top Straight — Flat recovery zone
+trackPoints[6]  = {1120, 150}; // Right Banked Edge — Upper entry arc
+trackPoints[7]  = {1200, 340}; // Right Banked Edge — Mid-apex sweeper
+trackPoints[8]  = {1120, 530}; // Right Banked Edge — Lower exit arc
+trackPoints[9]  = {950, 580};  // Bottom Straight — Flat entry to wave
+trackPoints[10] = {800, 540};  // Bottom Resistor Trough — Smooth rise up (relative to 580)
+trackPoints[11] = {650, 580};  // Bottom Resistor Center — Zero-crossing
+trackPoints[12] = {500, 620};  // Bottom Resistor Crest — Gentle dip down (relative to 580)
+trackPoints[13] = {350, 580};  // Bottom Straight — Flat recovery zone
+trackPoints[14] = {180, 530};  // Left Banked Edge — Lower entry arc
+trackPoints[15] = {100, 340};  // Left Banked Edge — Mid-apex sweeper
+trackPoints[16] = {100, 180};  // Left Banked Edge — Vertical alignment stretch
+trackPoints[17] = {100, 120};  // Final alignment point — Locks straight to launch line
+
+Map2
+error +-0.5
+
+// Axis of symmetry: x = 650
+{650, 580}  ,
+{850, 580}  ,
+{1080, 580} ,
+{1180, 500} ,
+{1180, 420} ,
+{950, 420}  ,
+{750, 400}  ,
+{750, 220}  ,
+{730, 80}  ,
+{650, 60}  ,
+{570, 80}  ,
+{550, 220}  ,
+{550, 400}  ,
+{350, 420}  ,
+{120, 420}  ,
+{120, 500}  ,
+{220, 580}  ,
+{450, 580}  
+
+Map3
+error+- 0.4
+{600, 580}  ,
+{850, 580} ,
+{1080, 580} ,
+{1200, 500} ,
+{1180, 340} ,
+{1180, 180} ,
+{1050, 80} ,
+{800, 80},
+{550, 80},
+{350, 100} ,
+{300, 200} ,
+{500, 240}  ,
+{750, 260}  ,
+{750, 420}  ,
+{500, 440}  ,
+{300, 480}  ,
+{350, 580}  ,
+{450, 580}  
+
+Map 4
+error +-0.35
+{100, 80},
+    {500, 80},
+    {650, 180},
+    {800, 80},
+    {1150, 80},
+    {1200, 200},
+    {950, 260},
+    {1180, 340},
+    {1180, 520},
+    {950, 580},
+    {800, 420},
+    {650, 580},
+    {500, 420},
+    {350, 580},
+    {120, 520},
+    {200, 340},
+    {80, 220},
+    {100, 120}
+
+MAP 5
+error +-0.3
+
+{150, 80}  ,
+{150, 520} , 
+{215, 580} , 
+{280, 520} , 
+{315, 200} , 
+{365, 160} , 
+{415, 200} , 
+{450, 520} , 
+{565, 580} , 
+{680, 520} , 
+{715, 200} , 
+{765, 160} , 
+{815, 200} , 
+{850, 520} , 
+{925, 580} , 
+{1000, 520}, 
+{1050, 200},
+{1000, 80}
+
+Map 6
+error +-0.275
+{200, 100},
+    {450, 250},
+    {300, 400},
+    {120, 300},
+    {80, 520},
+    {400, 580},
+    {550, 380},
+    {700, 580},
+    {950, 500},
+    {800, 350},
+    {1150, 540},
+    {1220, 320},
+    {1050, 200},
+    {1200, 80},
+    {850, 120},
+    {700, 60},
+    {600, 220},
+    {350, 70}
+
+Map 7
+error +-0.2
+{100, 80},
+    {100, 180},
+    {250, 280},
+    {500, 280},
+    {350, 450},
+    {100, 420},
+    {180, 580},
+    {600, 520},
+    {580, 380},
+    {750, 450},
+    {680, 580},
+    {1150, 580},
+    {950, 400},
+    {1100, 320},
+    {900, 240},
+    {1000, 100},
+    {750, 160},
+    {550, 70}
